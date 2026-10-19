@@ -2,6 +2,3 @@
 useDynLib(knox)
 exportPattern("^[[:alpha:]]+")
 importFrom(Rcpp, evalCpp)
-importFrom(rgdal,writeOGR)
-importFrom(sp,SpatialLines)
-importFrom(sp,SpatialLinesDataFrame)

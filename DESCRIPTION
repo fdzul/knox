@@ -1,12 +1,12 @@
 Package: knox
 Type: Package
-Title: Knox test 
-Version: 1.0
-Date: 2014-10-01
+Title: Knox test
+Version: 1.0.1
+Date: 2026-10-19
 Author: Thanh Le Viet
 Maintainer: Thanh Le Viet <lethanhx2k@gmail.com>
 Description: Knox test for space-time interaction
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.11.3), RcppArmadillo, sp, rgdal
-LinkingTo: Rcpp, RcppArmadillo, sp, rgdal
-Suggests: testthat
+Imports: Rcpp (>= 0.11.3)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: sf, testthat
